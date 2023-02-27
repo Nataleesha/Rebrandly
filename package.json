@@ -1,9 +1,12 @@
 {
   "name": "rebrandly",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build src/index.html --public-url /rebrandly/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -14,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/Nataleesha/rebrandly/issues"
   },
-  "homepage": "https://github.com/Nataleesha/rebrandly#readme",
-  "description": ""
+  "homepage": "https://github.com/Nataleesha/rebrandly",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3"
+  }
 }
