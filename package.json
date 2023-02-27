@@ -1,0 +1,19 @@
+{
+  "name": "rebrandly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataleesha/rebrandly.git"
+  },
+  "author": "nataliia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataleesha/rebrandly/issues"
+  },
+  "homepage": "https://github.com/Nataleesha/rebrandly#readme"
+}
