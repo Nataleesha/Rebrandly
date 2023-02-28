@@ -1,3 +1,69 @@
 body {
-    background-color: rgb(253, 253, 207);
+  background-color: rgb(253, 253, 207);
 }
+
+h1 {
+  height: 38px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #1f233e;
+  padding-top: 40px;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+#input {
+    min-width: 300px;
+    height: 35px;
+    border-radius: 3px;
+    border: solid 0.8px #1f233e;
+    display: block;
+    margin: auto;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    text-align: center;
+    cursor: text;
+  }
+
+#shorten {
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+  border: solid 0.8px #1f233e;
+  margin-top: 35px;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(62, 60, 60);
+  transition: all 0.5s;
+}
+
+#shorten:hover {
+  width: 90px;
+  cursor: pointer;
+}
+
+#responseField {
+    min-width: 200px;
+    min-height: 120px;
+    border: solid 1px rgb(78, 77, 77);
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgb(62, 60, 60);;
+    overflow: auto;
+    background-color: rgb(253, 253, 218);
+  }
